@@ -1,7 +1,15 @@
 {
   "name": "taxi-backend",
   "version": "1.0.0",
+  "description": "Backend API para sistema de táxis desenvolvido com Node.js, TypeScript e Express",
   "main": "dist/index.js",
+  "keywords": ["nodejs", "typescript", "express", "sqlite", "api", "backend", "taxi"],
+  "author": "123Will",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
